@@ -1,0 +1,63 @@
+#general_naiti_sotrudnika {
+    width: 90%;
+    height: 110px;
+    margin: 20px auto;
+    background-color: #3d5b81;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 10px 10px 18px #e1e1e1;
+}
+#naiti_sotrudnika {
+    width: 97%;
+    height: 35px;
+    margin: 17px auto;
+    border-radius: 4px;
+    border-color: whitesmoke;
+    padding-left: 10px;
+}
+#naiti_sotrudnika::placeholder {
+    font-size: 19px;
+}
+#naiti_sotrudnika:focus {
+    outline-color: #3d5b81;
+}
+#vse_sotrudniki {
+    width: 50%;
+    margin-left: 23px;
+    list-style: none;
+    display: flex;
+    border-radius: 5px;
+    color: white;
+}
+#vse_sotrudniki button {
+    height: 30px;
+    width: 33%;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px white solid;
+    cursor: pointer;
+    outline-color: #3d5b81;
+}
+
+@media only screen and (max-width: 1106px) {
+    #vse_sotrudniki {
+        width: 73%;
+    }
+    #dobavit {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    
+    #vse_sotrudniki {
+        width: 94%;
+    }
+}
+
+.active {
+    background-color: white;
+    color: black;
+}
